@@ -35,8 +35,7 @@ void infix_postfix(char infix[], char postfix[]) {
 int top; int i,j;
 char s[30];
 char symbol; 
-top= 
--1;
+top= -1;
 s[++top]='#';
 j=0;
 for(i=0;i<strlen(infix);i++) {
@@ -51,8 +50,7 @@ top--
 }
 while(s[top]!='#')
 postfix[j++]=s[top--];
-postfix[j]='
-\0';
+postfix[j]='\0';
 }
 void main()
 {
