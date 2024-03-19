@@ -60,6 +60,6 @@ char infix[20],postfix[20];
 printf("enter a valid infix expression:");
 scanf("%s",infix);
 infix_postfix(infix,postfix);
-printf("enter a valid postfix expression");
+printf("the postfix expression:");
 scanf("%s",postfix)
 }
